@@ -1,0 +1,576 @@
+.clearefix{
+    content: "";
+    clear: both;
+    display: block;
+}
+.navbar{
+    background-color: rgba(85, 78, 78, 0.014);
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+}
+.navbar .navbar-brand img{
+    margin-top: 2rem;
+}
+.navbar .ul {
+    line-height: 3rem;
+}
+.navbar .mar{
+    margin-top: 0;
+}
+.navbar .ul .li .a{
+    display: inline-block;
+    padding: 0 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    
+}
+.navbar .ul .li:first-child .a{
+    border: 2px solid #fff;
+    height: 3rem;
+    width: 5rem;
+}
+.navbar .ul .li .ul:hover{
+    transition: 1s !important;
+}
+.navbar .ul .li .a:hover{
+    color: aqua;
+}
+.navbar .ul .li .ul{
+    padding: 0;
+    margin: 0;
+    border-radius: 0;
+}
+.navbar .ul .li .ul .li{
+    padding: 0;
+    line-height: 3rem;
+    display: block;
+}
+.navbar .ul .li:hover .ul{
+    display: block;
+
+}
+.navbar .ul .li .ul .li{
+    width: 13rem;
+}
+.navbar .ul .li .ul .li .a{
+    color: #4e4e4e;
+    
+}
+.navbar .ul .li .ul .li .a{
+    border: none;
+    height: 100%;
+    width: 100%;
+   
+}
+.navbar .ul .li:hover{
+    background: rgba(180, 160, 160, 0.842);
+
+}
+.navbar .ul .li .a .ul .li a{
+    color: aqua !important;
+}
+.navbar .ul .li .ul .li:hover{
+    background: rgb(207, 154, 154);
+ 
+}
+.navbar .ul .li .ul .li a{
+    color: aqua;
+}
+.navbar .ul .li .ul .li .a:hover {
+	color: aqua;
+	background-color: rgba(100, 80, 80, 0.58);
+	border-left: 2px solid rgb(247, 20, 20);
+	border-right: 2px solid rgb(43, 20, 247);
+}
+
+.navbar .ul .li .ul .li .ul .li{}
+/* dropdown-manu  */
+/* dropdown-manu  */
+.navbar .ul .li .ul .li:hover .ul{
+    display: block;
+    transition: .4s;
+    
+}
+
+.navbar .ul .li .ul .li .ul{
+   right: 99%;
+
+}
+.navbar .ul .li:hover .ul{
+    opacity: 1;
+    visibility: visible;
+    transform: scaleY(1);
+}
+.navbar .ul .li .ul .li .ul{
+    opacity: 0;
+    visibility: hidden;
+    transform: scaleY(0);
+    transform-origin: top center;
+}
+.navbar .ul .li .ul .li:hover .ul{
+    opacity: 1;
+    visibility: visible;
+    transform: scaleY(1);
+    top: 2.91rem;
+    transition: 1s;
+}
+.navbar .ul .li .ul .li .ul .li .ul{
+    margin-top: 3rem;
+    opacity: 0;
+    visibility: hidden;
+    transform: scaleY(0);
+    transform-origin: top center;
+
+}
+.navbar .ul .li .ul .li .ul .li:hover ul{
+    opacity: 1;
+    visibility: visible;
+    transform: scaleY(1);
+    top: 2.91rem;
+    transition: 1s;
+}
+.navbar .ul .li .ul .li .ul .li .ul .li .ul{
+    margin-top: 3rem;
+    opacity: 0;
+    visibility: hidden;
+    transform: scaleY(0);
+    transform-origin: top center;
+}
+.navbar .ul .li .ul .li .ul .li .ul .li:hover .ul{
+    opacity: 1;
+    visibility: visible;
+    transform: scaleY(1);
+    top: 2.91rem;
+    transition: 1s;
+}
+.navbar .ul .li .ul .li .ul .li .ul .li .ul .li .ul{
+    margin-top: 3rem;
+    opacity: 0;
+    visibility: hidden;
+    transform: scaleY(0);
+    transform-origin: top center;
+}
+.navbar .ul .li .ul .li .ul .li .ul .li .ul .li .ul{
+    left: 99%;
+    width: 100%;
+}
+.navbar .ul .li .ul .li .ul .li .ul .li .ul .li:hover .ul{
+    opacity: 1;
+    visibility: visible;
+    transform: scaleY(1);
+    top: 2.91rem;
+    transition: 1s;
+}
+/* .navbar .ul .li .ul .li ul{
+    opacity: 1;
+    visibility: visible;
+} */
+/* banner-section */
+/* banner-section */
+.banner-section {
+    background: url("https://bootstrapmade.com/demo/templates/DevFolio/assets/img/hero-bg.jpg") no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.text-section1 h1{
+    padding-top: 10rem;
+    text-align: center;
+    color: #fff;
+    font-size: 5rem;
+    font-family: 'Roboto', sans-serif;
+}
+.text-section1 h2{
+    text-align: center;
+    font-size: 3rem;
+    color: #fff;
+    padding-bottom: 15rem;
+    padding-top: 2rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* .about-section */
+/* .about-section */
+
+.about-section {}
+.about-section .full-body{
+    padding: 5.5rem;
+    box-shadow: 0 0 10px #333;
+    margin-top: 5rem;
+}
+.about-section .left-section .img-section{
+    display: flex;
+}
+
+.about-section .left-section .img-section img{
+    max-width: 100%;
+    height: 9.3rem;
+}
+
+.about-section .left-section ul{
+    list-style: none; 
+}
+.about-section .left-section ul li{
+    line-height: 2.5rem;
+
+}
+.about-section .full-body .right-section {}
+.about-section .full-body .right-section .text-section2 h1{
+    font-size: 2rem;
+}
+.about-section .full-body .right-section .text-section2 .line{
+    width: 6rem;
+    height: 3px;
+    background: #0078FF;
+    margin: .8rem 0;
+}
+.about-section .full-body .right-section .text-section2 p{
+    font-size: 1.25rem;
+    font-weight: 300;
+    color: #4e4e4e;
+}
+
+
+/* service-section */
+/* service-section */
+.service-section {
+    padding: 5rem 0;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    background-color: #F5F5F5;
+    margin-top: 2rem;
+}
+.service-section .text-section3 h1{
+    font-size: 3rem;
+    font-weight: 600;
+    
+}
+.service-section .line-2{
+    width: 4rem;
+    height: .3rem;
+    background: #0078FF;
+    margin: auto;
+    margin-bottom: 5rem;
+}
+.service-section .box-section{
+    margin-top: 1rem;
+}
+
+.service-section .box-section .box{
+    width: 28%;
+    height: auto;
+    background: #fff;
+    display: inline-block;
+    margin: .8rem;
+    padding: 2rem;
+    box-shadow: 0 0 5px #33333385;
+}
+.service-section .box-section .box span {
+	height: 7rem;
+	width: 7rem;
+	background: #fff;
+	display: inline-block;
+	font-size: 3rem;
+	line-height: 6rem;
+	border-radius: 50%;
+    border: .5rem solid #0078FF;
+    transition: .4s;
+}
+.service-section .box-section .box:hover span{
+    background: #0078FF;
+    border: .5rem solid #CDE1F8;
+}   
+.service-section .box-section .box h5 {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    font-weight: 600;
+}
+.service-section .box-section .box p{
+    font-weight: 400;
+    margin-top: 1rem;
+}
+
+
+/* counting-seciton */
+/* counting-seciton */
+.counting-seciton {
+    background: url("https://bootstrapmade.com/demo/templates/DevFolio/assets/img/counters-bg.jpg") no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+    padding: 5rem 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.text-seciton4 span {
+    border-radius: 50%;
+	width: 6rem;
+	height: 6rem;
+	background: none;
+	display: inline-block;
+    font-size: 2rem;
+    line-height: 5.5rem;
+    border: .5rem solid #CDE1F8;
+}   
+.text-seciton4 h4{
+    padding: 1rem 0;
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+/* protfolio-section */
+/* protfolio-section */
+.protfolio-section {
+    text-align: center;
+    padding: 2rem 0;
+    font-family: 'Roboto', sans-serif;
+}
+.protfolio-section .text-section4 h1{
+    font-size: 3rem;
+    font-weight: 600;
+    
+}
+.protfolio-section .line-2{
+    width: 4rem; 
+    height: .3rem;
+    background: #0078FF; 
+    margin: auto;
+    margin-bottom: 5rem;
+}
+.protfolio-section .text-section5 {
+	box-shadow: 0 0 10px #170f0f40;
+    margin: 1rem 0;
+}
+.protfolio-section .text-section5 p{
+    float: left;
+    line-height: 3rem;
+}
+.protfolio-section .text-section5 p span{
+    color: #0078FF;
+}
+.protfolio-section .text-section5 h5{
+    padding: .5rem 0;
+    text-align: left;
+}
+.protfolio-section .text-section5 img{
+    transition: .5s;
+    
+}
+.protfolio-section .text-section5 a{
+    background: none;
+    display: inline-block;
+    height: 3rem;
+    width: 3rem;
+    border: 3px solid #0078FF;
+    line-height: 2rem;
+    border-radius: 2rem;
+}
+.protfolio-section .text-section5 a{
+    color: #0078FF;
+    font-size: 1.2rem;
+}
+.protfolio-section .text-section5:hover img{
+    transform: scale(1.1);
+    
+}
+
+/* 
+slider-section  */
+/* 
+slider-section  */
+.slider-section {
+	text-align: center;
+	background: linear-gradient( #0078FF94, #0078FF96), url("https://bootstrapmade.com/demo/templates/DevFolio/assets/img/overlay-bg.jpg") center;
+	background-size: cover;
+	height: 30rem;
+	background-attachment: fixed;
+    font-family: 'Roboto', sans-serif;
+}
+.slider-section img{
+    height: 10rem;
+    width: auto;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 5rem;
+    margin-bottom: 14rem;
+}
+
+.carousel-caption h5{
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 600;
+
+}
+
+.carousel-caption p{
+    color: #fff;
+    font-size: 1.12rem;
+    width: 75%;
+    margin: auto;
+}
+.carousel-indicators .roun {
+	width: 1.5rem;
+	background: #fff;
+	border-radius: 50%;
+    display: inline-block;
+    margin-top: 5rem;
+}
+
+/* blog-section */
+/* blog-section */
+
+.blog-section {
+    font-family: 'Roboto', sans-serif;
+    padding: 2rem 0;
+}
+.blog-section .text-section6 h1{
+    font-size: 3rem;
+    font-weight: 600;
+    text-align: center;
+}
+.blog-section .text-section6 p{
+    text-align: center;
+
+}
+.blog-section .line-2{
+    width: 4rem; 
+    height: .3rem;
+    background: #0078FF; 
+    margin: auto;
+    margin-bottom: 5rem;
+}
+.blog-section .text-section5 .butt {
+    text-align: center;
+    margin-top: -2rem;
+}
+.blog-section .text-section5 .butt span {
+	display: inline-block;
+	padding: .5rem .5rem;
+	background: #0078FF;
+	font-size: .8rem;
+	border-radius: 0.3rem;
+    color: #fff;
+}
+.blog-section .text-section5 a{
+    margin: 2rem 0 .5rem 0;
+    text-decoration: none;
+    color: #040404;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: .4s;
+}
+.blog-section .text-section5 a:hover{
+    color: #0078FF;
+}
+.blog-section .text-section5 .card-footer .img-section2 img{
+    height: 2rem;
+    border-radius: 50%;
+    line-height: 2rem;
+}
+.blog-section .text-section5 .card-footer .img-section2{
+    display: flex;
+    line-height: 2rem;
+}
+.blog-section .text-section5 .card-footer .img-section2 p {
+    padding-left: .5rem;
+	padding-bottom: 0;
+    padding-right: 5rem;
+    
+}
+.blog-section .text-section5 .card-footer{
+    padding-bottom: .1rem .2rem !important;
+}
+
+/* contact-section */
+/* contact-section */
+.contact-section {
+	background: linear-gradient( #0078FF94, #0078FF96), url("https://bootstrapmade.com/demo/templates/DevFolio/assets/img/overlay-bg.jpg") center;
+	background-size: cover;
+	background-attachment: fixed;
+    font-family: 'Roboto', sans-serif;
+}
+.contact-section .db {
+	background-color: #fff;
+	display: flex;
+	margin: 6rem 0;
+	padding: 4rem;
+}
+.contact-section .line-3 {
+	width: 10rem;
+	height: .2rem;
+	background-color: #0078FF;
+}
+.contact-section .db .sms h1{
+    text-align: left;
+}
+.contact-section .db .sms input {
+	width: 100%;
+	padding: 0.5rem 1rem;
+	margin-top: 1.6rem;
+    
+}
+.contact-section .db .sms textarea{
+    width: 100%;
+    margin-top: 1.6rem;
+    padding: 1rem 1rem;
+    margin-bottom: 1rem;
+}
+.contact-section .db .sms button{
+    display: inline-block;
+    border-radius: 2rem;
+    padding: .5rem 2rem;
+}
+.contact-section .db .touch .location ul{
+    list-style: none;
+    padding-left: 0;
+}
+.contact-section .db .touch .location ul li i{
+    padding: 0 .5rem;
+    color: #0078FF;
+}
+.contact-section .db .touch .location ul li{
+    line-height: 2rem;
+}
+.contact-section .db .touch p {
+	margin-top: 2rem;
+	color: #4e4e4e;
+	font-size: 1.1rem;
+	line-height: 2rem;
+	font-weight: 300;
+}
+.contact-section .db .touch .social {}
+.contact-section .db .touch .social ul{
+    list-style: none;
+}
+.contact-section .db .touch .social ul li{
+    display: inline-block;
+    width: 3rem;
+    height: 3rem;
+    border: 2px solid #0078FF;
+    text-align: center;
+    border-radius: 50%;
+    transition: .4s;
+    margin-left: .5rem;
+}
+.contact-section .db .touch .social ul li:hover{
+    background-color: #0078FF;
+    color: #fff;
+}
+.contact-section .db .touch .social ul li:hover a{
+    color: #fff;
+}
+.contact-section .db .touch .social ul li a{
+    line-height: 3rem;
+}
+.footer-section {
+    text-align: center;
+    background: #0078FF;
+    padding: 2rem 0;
+}
+.footer-section p{
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 0;
+    
+}
